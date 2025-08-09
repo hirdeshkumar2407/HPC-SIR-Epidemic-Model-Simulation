@@ -1,6 +1,30 @@
 # 🦠 PARALLEL SIR SIMULATION USING MPI & RUNGE-KUTTA METHOD.
 
-A parallel implementation of the SIR (Susceptible-Infected-Recovered) model using MPI to simulate disease spread across The United States of America states.
+## 🎯 Project Mission
+
+This project, developed for the "Advanced Methods for Scientific Computing" course at Politecnico di Milano, goes beyond a simple SIR model. Our mission was to engineer a **high-performance, parallel simulation** capable of modeling real-world epidemic dynamics across a large, geographically complex area like the United States. We leveraged C++ and MPI to build a scalable and efficient tool for computational epidemiology, demonstrating how HPC techniques can be applied to solve critical, large-scale societal problems.
+
+
+## Contributors & My Role
+
+This project was a collaborative effort by a talented international team of five engineers. The primary repository is owned by my teammate, [Nada Khaled](https://www.linkedin.com/in/nadahkhaledd10/).
+As a key contributor and strategist for the team, my specific role focused on two main areas:
+
+1. Architecting the Parallelization Strategy:
+- I took the lead in designing the core MPI-based parallelization architecture, focusing on an efficient domain decomposition strategy and the implementation of ghost cell communication to ensure data consistency between processes.
+- My work was crucial for enabling the simulation to scale and run efficiently on multiple processor cores.
+
+2. Team Management & Strategy:
+- I helped to guide the team's overall strategy, ensuring our technical decisions were aligned with the project's goals.
+- This involved facilitating discussions, helping to resolve technical roadblocks, and ensuring that our collaborative workflow was smooth and productive.
+
+### Team Members:
+- [Salvatore Mariano Librici](https://www.linkedin.com/in/salvatore-mariano-librici/)
+- [Nada Khaled](https://www.linkedin.com/in/nadahkhaledd10/)
+- [Milica Sanjevic](https://www.linkedin.com/in/milica-sanjevic-321392327/)
+- [Hirdesh Kumar](https://www.linkedin.com/in/hirdeshkumar2407/)
+- [Yibo Li](https://www.linkedin.com/in/yibo-li-0b0b792a2/)
+
 
 ## Data Source & Preprocessing
 
@@ -266,9 +290,3 @@ States are managed using a discrete event simulation approach:
 - Future events are predicted based on current state and parameters.
 - State is updated at each event, and new events are scheduled as needed.
 
-## Contributors
-- [Salvatore Mariano Librici](https://www.linkedin.com/in/salvatore-mariano-librici/)
-- [Nada Khaled](https://www.linkedin.com/in/nadahkhaledd10/)
-- [Milica Sanjevic](https://www.linkedin.com/in/milica-sanjevic-321392327/)
-- [Hirdesh Kumar](https://www.linkedin.com/in/hirdeshkumar2407/)
-- [Yibo Li](https://www.linkedin.com/in/yibo-li-0b0b792a2/)
